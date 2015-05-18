@@ -159,22 +159,6 @@ namespace Parken
             {
                 return true;
             }
-
-            //private static int SetzeZeitRausfahren(int ende)
-            //{
-            //    // TODO: Zeitstempel setzen (z.B. für Parkende)
-            //    // Rückgabe als Integer (nat. nur für Übungszwecke)
-            //    var pkwEnde = ende;
-            //    return pkwEnde;
-            //}
-
-            //private static int SetzeZeitReinfahren(int beginn)
-            //{
-            //    // TODO: Zeitstempel setzen (z.B. für Parkbeginn)
-            //    // Rückgabe als Integer (nat. nur für Übungszwecke)
-            //    var pkwBeginn = beginn;
-            //    return pkwBeginn;
-            //}
         }
     }
 }

@@ -7,9 +7,6 @@ namespace Parkhaus_Ric
     {
         public static void Main(string[] args)
         {
-            // Für ein Parkhaus ist nur der zu erhaltende Betrag relevant
-            //decimal betrag;
-
             // ... und die Gebühr pro Zeiteinheit
             const decimal gebuehr = 0.6m;
 
@@ -26,8 +23,8 @@ namespace Parkhaus_Ric
 
             #region Parkvorgang 1 (Parkende liegt vor Parkbeginn)
 
-            parkbeginn = 8;
-            parkende = 9;
+            parkbeginn = -1;
+            parkende = 24;
 
             Console.WriteLine("Parkvorgang 1:");
 
